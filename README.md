@@ -9,11 +9,29 @@ npm install react-native-ui-toolkit
 ## Usage
 
 ```js
-import { multiply } from "react-native-ui-toolkit";
+import { ScrollableHeader } from "react-native-ui-toolkit";
 
 // ...
 
-const result = await multiply(3, 7);
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <ScrollableHeader
+        bounces={false}
+        headerType={'DetailsHeader'}
+        backgroundColor={'grey'}
+        hasBorderRadius
+        headerHeight={105}
+        imgUrl={
+          'https://thumbs.dreamstime.com/z/bombay-potato-curry-indian-food-29146242.jpg'
+        }
+        title={'Food Title'}
+      >
+        <Text>Hellow</Text>
+      </ScrollableHeader>
+    </View>
+  );
+}
 ```
 
 ## Contributing
