@@ -1,18 +1,24 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-ui-toolkit';
+import { ScrollableHeader } from '../../src/index';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <ScrollableHeader
+        bounces={false}
+        headerType={'DetailsHeader'}
+        backgroundColor={'grey'}
+        hasBorderRadius
+        headerHeight={105}
+        imgUrl={
+          'https://thumbs.dreamstime.com/z/bombay-potato-curry-indian-food-29146242.jpg'
+        }
+        title={'Food Title'}
+      >
+        <Text>Hellow</Text>
+      </ScrollableHeader>
     </View>
   );
 }
