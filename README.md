@@ -5,6 +5,7 @@ UI Toolkit For React Native
 ```sh
 npm install react-native-ui-toolkit
 ```
+https://user-images.githubusercontent.com/45430120/188515461-bf21c2ac-8b9f-4b38-ad70-cfed97b8a86d.mov
 
 ## Usage
 
@@ -12,7 +13,7 @@ npm install react-native-ui-toolkit
 import { ScrollableHeader } from "react-native-ui-toolkit";
 
 
-https://user-images.githubusercontent.com/45430120/188515461-bf21c2ac-8b9f-4b38-ad70-cfed97b8a86d.mov
+
 
 
 // ...
