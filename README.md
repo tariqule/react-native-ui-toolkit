@@ -5,7 +5,8 @@ UI Toolkit For React Native
 ```sh
 npm install react-native-ui-toolkit
 ```
-https://user-images.githubusercontent.com/45430120/188515461-bf21c2ac-8b9f-4b38-ad70-cfed97b8a86d.mov
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/45430120/188515577-0f19bc43-8a30-4200-930c-e4eabb312c26.gif)
+
 
 ## Usage
 
