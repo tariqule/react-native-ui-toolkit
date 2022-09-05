@@ -5,7 +5,8 @@ UI Toolkit For React Native
 ```sh
 npm install react-native-ui-toolkit
 ```
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/45430120/188515577-0f19bc43-8a30-4200-930c-e4eabb312c26.gif)
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/45430120/188515716-204caf64-9313-4056-b426-957dc4893d40.gif)
 
 
 ## Usage
@@ -48,6 +49,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 
 MIT
 
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
