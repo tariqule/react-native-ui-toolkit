@@ -15,11 +15,6 @@ npm install react-native-ui-toolkit
 import { ScrollableHeader } from "react-native-ui-toolkit";
 
 
-
-
-
-// ...
-
 export default function App() {
   return (
     <View style={styles.container}>
